@@ -52,6 +52,16 @@
   }
 
   --font-pixel: 'Jersey 10', 'sans-serif';
+  --color-blue-joust: "#56acff";
+  --color-blue-cosmos: "#003049";
+  --color-blue-hera: "#7179ef";
+  --color-green-benzol: "#00d372"
+  --color-pink-ice: "#d87cac"
+  --color-bg-dark-border: rgb(255 255 255 / 0.05);
+  --color-bg-primary: rgba(255, 255, 255, .05);
+  --color-fg-primary: #FFF;
+  --color-bg-secondary: rgba(255, 255, 255, .03);
+  --color-fg-secondary: rgba(255, 255, 255, .04);
 }
 
 :root {
@@ -64,11 +74,29 @@
   font-style: normal;
 }
 
+.border-primary {
+
+  border-color: var(--color-border-primary);
+
+}
+
 .main-font {
   font-family: var(--main-font);
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.bg-primary-background {
+  background-color: var(--color-bg-primary);
+}
+
+.bg-secondary-background {
+  background-color: var(--color-bg-secondary);
+}
+
+.color-blue-joust {
+  color: var(--color-blue-joust);
 }
 
 .oswald-font {
