@@ -20,7 +20,7 @@ export const Cursor: FC<CursorProps> = ({ color }) => {
         outerStyle={{
           border: `1px solid ${color}`,
         }}
-        clickables={['a', 'button', 'input', '.link']}
+        clickables={['a', 'button', 'input', 'textarea', '.link']}
       />
     </div>
   );

@@ -18,7 +18,7 @@ const Button: FC<ButtonProps> = ({
   return (
     <>
       {link ? (
-        <Link href={link} target="_blank" className="w-10 h-10 cursor-pointer">
+        <Link href={link} target="_blank" className="w-10 h-10">
           <ButtonBody className={className} isIcon={isIcon}>
             {children}
           </ButtonBody>
@@ -44,10 +44,10 @@ const ButtonBody: FC<ButtonBodyProps> = ({
   className,
 }) => {
   return (
-    <div className="cursor-pointer flex-none w-auto h-full">
+    <div className="flex-none w-auto h-full">
       <div
         className={cn(
-          'flex items-center justify-center gap-2 bg-bg-primary text-fg-primary text-sm font-medium rounded-2xl whitespace-nowrap hover:bg-white/[0.1] transition-colors duration-1000',
+          'flex items-center justify-center gap-2 bg-secondary-background text-primary-foreground text-sm font-medium rounded-2xl cursor-pointer whitespace-nowrap button-hover transition-colors duration-1000',
           className,
           isIcon ? 'h-10 w-10' : 'h-full w-max px-3 py-2'
         )}

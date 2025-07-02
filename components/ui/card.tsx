@@ -11,7 +11,7 @@ const Card: FC<CardProps> = ({ title, children, className }) => {
   return (
     <div
       className={cn(
-        'relative bg-bg-primary w-full h-fit rounded-2xl border border-black p-6 text-fg-primary overflow-hidden',
+        'relative bg-secondary-background w-full h-fit rounded-2xl border border-primary-border p-6 text-primary-foreground overflow-hidden',
         className
       )}
     >
