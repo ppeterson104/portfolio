@@ -52,6 +52,7 @@
   }
 
   --font-pixel: 'Jersey 10', 'sans-serif';
+  --font-oswald: 'Oswald', 'sans-serif'
   --font-main: 'Bricolage Grotesque', 'sans-serif';
   --color-blue-joust: #56acff;
   --color-blue-cosmos: #003049;
@@ -136,4 +137,12 @@ body {
 
 .before-content-none::before {
   content: '';
+}
+
+.bottom_fade {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 20.1275%,
+    rgba(255, 255, 255) 100%
+  );
 }
