@@ -23,24 +23,24 @@ export default function LandingSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-8 leading-[14vw] lg:leading-[10vw] 2xl:leading-[9rem] font-medium h-[40rem] tracking-[-0.3rem]">
         <div className="flex flex-col justify-center items-center text-primary-foreground text-[18vw] lg:text-[14vw] 2xl:text-[12rem]">
           <div>
-            <span>CODE</span>
+            <span>SASSY</span>
           </div>
           <div>
-            <span>CRAFTING</span>
+            <span>CODE</span>
           </div>
           <div className="relative">
-            <span>BRILLIANCE</span>
+            <span>SWAGGER</span>
             <div className="text-[1rem] leading-[1.4rem] tracking-[-0.07rem] absolute top-[16vw] lg:top-[12vw] 2xl:top-[10rem] left-0 2xl:left-[25rem] w-[30rem] uppercase font-normal">
-              <span>Here is a bunch of text that says stuff</span>
+              <span>Turning Mountain dew into code</span>
               <br />
-              <span>More text is here</span>
+              <span>With a side of wit</span>
               <br />
-              <span>And don't forget here</span>
+              <span>And a pinch of sarcasm</span>
             </div>
           </div>
         </div>
         {/*Magnetic Scroll*/}
-        <MagneticWrapper className="absolute left-1/2 -translate-x-1/2 bottom-[8rem] md:bottom-[4rem] 2xl:-bottom-10">
+        <MagneticWrapper className="absolute left-1/2 -translate-x-1/2 bottom-[8rem] md:bottom-[2rem] 2xl:bottom-[-4rem]">
           <ScrollDown />
         </MagneticWrapper>
       </div>

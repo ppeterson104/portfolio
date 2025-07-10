@@ -18,7 +18,7 @@ const Button: FC<ButtonProps> = ({
   return (
     <>
       {link ? (
-        <Link href={link} target="_blank" className="w-10 h-10">
+        <Link href={link} target="_blank" className="w-auto h-full">
           <ButtonBody className={className} isIcon={isIcon}>
             {children}
           </ButtonBody>
