@@ -1,3 +1,4 @@
+import { appStacks } from '@/data/stacks';
 import { FC } from 'react';
 
 interface HeaderProps {
@@ -12,6 +13,9 @@ const Header: FC<HeaderProps> = ({ title, tag }) => {
         <p className="text-lg font-semibold leading-3 text-primary-foreground">
           {title}
         </p>
+      </div>
+      <div>
+        <p className="text-sm font-semibold leading-3 text-primary-foreground"></p>
       </div>
       <div>
         <p className="text-lg font-medium leading-3 text-secondary-foreground font-pixel">

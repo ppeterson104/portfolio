@@ -8,12 +8,12 @@ export default function ExperienceCard() {
       <Timeline>
         <TimeLineItem
           date="2022-2025"
-          title="Sr. Enterprise Application Engineer"
+          title="Sr. Application Engineer"
           subtitle="Cox Automotive, Inc."
         />
         <TimeLineItem
           date="2018-2022"
-          title="Sr. Technology Service Manager"
+          title="Sr. Tech Service Manager"
           subtitle="Cox Automotive, Inc."
         />
         <TimeLineItem

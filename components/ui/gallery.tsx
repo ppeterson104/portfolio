@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function Gallery() {
   return (
-    <div className="h-[450px] sm:h-[650px] md:h-[60vh] 2xl:h-[750px] w-full">
+    <div className="h-[500px] sm:h-[650px] md:h-[60vh] 2xl:h-[850px] w-full">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{

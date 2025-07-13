@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa6';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import SvgSN from '../image/snsvg';
 import Button from './button';
 
@@ -27,6 +27,11 @@ const socials = [
   {
     icon: <SvgSN height={15} width={60} fill="#FFF" />,
     link: 'https://learning.servicenow.com/lxp?id=nl_public&user=pthomaspet045604',
+    username: 'Pete Peterson',
+  },
+  {
+    icon: <FaGithub className="w-4 h-4" />,
+    link: 'https://github.com/ppeterson104',
     username: 'Pete Peterson',
   },
 ];

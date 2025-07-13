@@ -20,7 +20,7 @@ const featuredData = [
   },
 
   {
-    title: 'Tailwind Music Fest',
+    title: 'Music Fest',
     logo: '',
     tag: 'Feb 2018 - Dec 2024',
     video:
@@ -30,7 +30,7 @@ const featuredData = [
   },
 
   {
-    title: 'Willis Pest Control',
+    title: 'Willis Pest',
     logo: '',
     tag: 'Feb 2018 - Dec 2024',
     video:

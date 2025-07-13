@@ -3,6 +3,7 @@ import { WaterWaveWrapper } from '@/components/browser-component';
 import LandingSection from '@/sections/landing';
 import Featured from '@/sections/featured';
 import AboutSection from '@/sections/about';
+import Contact from '@/sections/contact';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <LandingSection />
           <Featured />
           <AboutSection />
+          <Contact />
         </div>
       )}
     </WaterWaveWrapper>

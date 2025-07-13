@@ -9,7 +9,7 @@ interface InputProps {
 const Input: FC<InputProps> = ({ icon, placeholder, type }) => {
   return (
     <div className="relative w-full">
-      <div className="absolute inset-y-o start-0 flex items-center ps-3.5 pointer-events-none">
+      <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
         {icon}
       </div>
       <input

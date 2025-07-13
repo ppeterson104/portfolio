@@ -15,6 +15,7 @@ import PGImg from '@/public/assets/images/stacks/PostgresSQL.png';
 import GitImg from '@/public/assets/images/stacks/Git.png';
 import GHImg from '@/public/assets/images/stacks/GitHub.png';
 import DOSImg from '@/public/assets/images/stacks/MS-DOS.png';
+import NetImg from '@/public/assets/images/stacks/NET.png';
 
 export const stackData = [
   {
@@ -149,5 +150,24 @@ export const stackData = [
         bgColor: '',
       },
     ],
+  },
+];
+
+export const appStacks = [
+  {
+    app: 'Problem Notes',
+    stack: [ElectronImg, HTMLImg, CSSImg, JQImg, BSImg],
+  },
+  {
+    app: 'Willis Pest Control',
+    stack: [HTMLImg, CSSImg, JSImg],
+  },
+  {
+    app: 'Slidify',
+    stack: [NetImg],
+  },
+  {
+    app: 'Tailwind Music Fest',
+    stack: [TWImg, HTMLImg, JSImg],
   },
 ];
