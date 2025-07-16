@@ -1,4 +1,3 @@
-import { appStacks } from '@/data/stacks';
 import { FC } from 'react';
 
 interface HeaderProps {

@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import { FC } from 'react';
 import { IconType } from 'react-icons';
 
@@ -28,7 +29,11 @@ const Heading: FC<HeadingProps> = ({
         <p className="text-[17vw] lg:text-[12vw] sm:text-[11vw] max-sm:text-[11vw] leading-[100%] text-primary-foreground mr-3">
           {title_1}
         </p>
-        <span className="text-primary-foreground text-[6vw] flex flex-col justify-center align-middle">
+        <span
+          className={cn(
+            'text-primary-foreground text-[6vw] flex flex-col justify-center align-middle lg:animate-spin'
+          )}
+        >
           {Icon && <Icon />}
         </span>
         <p className="text-[17vw] lg:text-[12vw] sm:text-[11vw] max-sm:text-[11vw] leading-[100%] text-primary-foreground italic">

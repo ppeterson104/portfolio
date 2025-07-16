@@ -1,42 +1,38 @@
 const featuredData = [
   {
+    title: 'Next Level Food Demo',
+    logo: '',
+    tag: '2024',
+    video: '/assets/videos/nl-food.mp4',
+    credits: 'Pete Peterson',
+    link: '',
+  },
+
+  {
     title: 'Problem Notes',
     logo: '',
     tag: 'Feb 2018 - Dec 2024',
-    video:
-      'https://cdn.dribbble.com/userupload/3743863/file/original-ed64ce215ecf5f86ead7fedaca82c84c.mp4',
-    credits: 'Julia Dmitrievna',
-    link: 'https://dribbble.com/shots/19587956-Okarys-Brand-Identity',
+    video: '/assets/videos/p_notes.mp4',
+    credits: 'Pete Peterson',
+    link: '',
   },
 
   {
-    title: 'Slidify',
+    title: 'Music Fest Demo',
     logo: '',
-    tag: 'Feb 2018 - Dec 2024',
-    video:
-      'https://cdn.dribbble.com/userupload/3743863/file/original-ed64ce215ecf5f86ead7fedaca82c84c.mp4',
-    credits: 'Julia Dmitrievna',
-    link: 'https://dribbble.com/shots/19587956-Okarys-Brand-Identity',
-  },
-
-  {
-    title: 'Music Fest',
-    logo: '',
-    tag: 'Feb 2018 - Dec 2024',
-    video:
-      'https://cdn.dribbble.com/userupload/3743863/file/original-ed64ce215ecf5f86ead7fedaca82c84c.mp4',
-    credits: 'Julia Dmitrievna',
-    link: 'https://dribbble.com/shots/19587956-Okarys-Brand-Identity',
+    tag: '2023',
+    video: '/assets/videos/tw-mf.mp4',
+    credits: 'Pete Peterson',
+    link: '',
   },
 
   {
     title: 'Willis Pest',
     logo: '',
-    tag: 'Feb 2018 - Dec 2024',
-    video:
-      'https://cdn.dribbble.com/userupload/3743863/file/original-ed64ce215ecf5f86ead7fedaca82c84c.mp4',
-    credits: 'Julia Dmitrievna',
-    link: 'https://dribbble.com/shots/19587956-Okarys-Brand-Identity',
+    tag: '2022',
+    video: '/assets/videos/willis.mp4',
+    credits: 'Pete Peterson',
+    link: '',
   },
 ];
 

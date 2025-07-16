@@ -7,6 +7,13 @@ export default function CertificationsCard() {
     <Card title="Certifications">
       <Timeline>
         <TimeLineItem
+          date="2025"
+          title="Certified Application Developer"
+          subtitle="ServiceNow"
+          link="https://learning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=pthomaspet045604"
+          tag=""
+        />
+        <TimeLineItem
           date="2024"
           title="Certified System Administrator"
           subtitle="ServiceNow"

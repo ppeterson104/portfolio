@@ -34,7 +34,11 @@ export default function LandingSection() {
       <div className="flex flex-col gap-10 mt-10 items-center md:text-center h-full justify-evenly">
         <div className="z-20 md:hidden">
           <MagneticWrapper>
-            <FancyButton text="Contact me" icon={<FaArrowRight />} />
+            <FancyButton
+              url="#contact"
+              text="Contact me"
+              icon={<FaArrowRight />}
+            />
           </MagneticWrapper>
         </div>
         <div>

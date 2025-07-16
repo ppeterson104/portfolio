@@ -5,6 +5,8 @@
 @theme {
   --animate-noise: noise 0.2s steps(2) infinite;
 
+  --animate-spin: slow-rotate 20s linear infinite;
+
   @keyframes noise {
     0% {
       transform: translate3d(0, 9rem, 0);
@@ -51,6 +53,11 @@
     }
   }
 
+  @keyframes slow-rotate {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+  }
+
   --font-pixel: 'Jersey 10', 'sans-serif';
   --font-oswald: 'Oswald', 'sans-serif'
   --font-main: 'Bricolage Grotesque', 'sans-serif';
@@ -64,10 +71,15 @@
   --color-secondary-foreground: rgba(255, 255, 255, 0.2);
   --color-primary-border: rgb(255 255 255 / 0.05);
   --color-green-benzol: #00d372;
+  --color-accent-gradient: linear-gradient(90deg,rgba(0, 211, 114, 1) 50%, rgba(86, 172, 255, 1) 100%)
 }
 
 :root {
   --main-font: 'Bricolage Grotesque', 'sans-serif';
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .fancy-btn {

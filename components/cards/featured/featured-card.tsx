@@ -1,6 +1,7 @@
 import { ReactNode, FC } from 'react';
 import Header from './header';
 import Video from './video';
+import { cn } from '@/lib/utils';
 
 interface FeaturedCardProps {
   logo?: ReactNode;
@@ -8,6 +9,7 @@ interface FeaturedCardProps {
   tag: string;
   video: string;
   active: boolean;
+  className?: string;
 }
 
 const FeaturedCard: FC<FeaturedCardProps> = ({
@@ -16,12 +18,22 @@ const FeaturedCard: FC<FeaturedCardProps> = ({
   tag,
   video,
   active,
+  className,
 }) => {
   return (
-    <div className="link w-full h-full bg-secondary-background border border-primary-border shadow-lg rounded-3xl cursor-pointer flex flex-col gap-4 flex-nowrap p-2">
+    <div
+      className={cn(
+        'link w-full h-full bg-secondary-background border border-primary-border shadow-lg rounded-3xl cursor-pointer flex flex-col gap-4 flex-nowrap p-2'
+      )}
+    >
       <Header title={title} tag={tag} />
       {/*Body*/}
-      <div className="relative flex float-none flex-nowrap items-center justify-center h-[550px] border border-primary-border rounded-3xl">
+      <div
+        className={cn(
+          'relative flex float-none flex-nowrap items-center justify-center border border-primary-border rounded-3xl',
+          className
+        )}
+      >
         <Video video={video} active={active} />
       </div>
     </div>

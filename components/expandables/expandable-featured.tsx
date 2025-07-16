@@ -29,6 +29,7 @@ export default function ExpandableFeatured() {
             title={featured.title}
             tag={featured.tag}
             video={featured.video}
+            className="h-[550px]"
           />
         </div>
       ))}

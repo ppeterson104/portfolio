@@ -9,7 +9,7 @@ const FeaturedData = featuredData[0];
 
 export default function Featured() {
   return (
-    <div className="pt-24 px-3 lg:px-8 h-auto">
+    <div id="featured" className="pt-24 px-3 lg:px-8 h-auto">
       <Heading
         title_1="Featured"
         title_2="Work"
@@ -21,6 +21,7 @@ export default function Featured() {
         title={FeaturedData.title}
         tag={FeaturedData.tag}
         video={FeaturedData.video}
+        className="h-[550px] lg:h-[800px] xl:h-[75vh]"
       />
       <div className="mt-24">
         <ExpandableFeatured />
