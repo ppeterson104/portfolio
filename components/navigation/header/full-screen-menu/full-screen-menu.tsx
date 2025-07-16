@@ -57,19 +57,22 @@ export default function FullScreenMenu() {
           <div className="flex items-center gap-4">
             <Link
               className="hover:bg-blue-joust transition-colors duration-200  p-1.5 cursor-pointer border border-white rounded-[8px]"
-              href="/"
+              href="https://www.linkedin.com/in/ppeterson82/"
+              target="_blank"
             >
               LINKEDIN
             </Link>
             <Link
               className="hover:bg-green-benzol transition-colors duration-200  p-1.5 cursor-pointer border border-white rounded-[8px]"
-              href="/"
+              href="https://github.com/ppeterson104"
+              target="_blank"
             >
               Github
             </Link>
             <Link
               className="hover:bg-blue-joust hover:backdrop-blur-sm transition-colors duration-200  p-1.5 cursor-pointer border border-white rounded-[8px]"
-              href="/"
+              href="https://learning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=pthomaspet045604"
+              target="_blank"
             >
               ServiceNow
             </Link>
