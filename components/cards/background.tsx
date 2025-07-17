@@ -14,16 +14,18 @@ export default function BackgroundCard() {
         <span className="text-white underline">
           I wrote my first program at the age of 12 in BASIC.
         </span>
-        &nbsp;It was but a simple 'choose your own adventure' style game,
-        however; it set me on a path and a great interest in all things
+        &nbsp;It was but a simple &apos;choose your own adventure&apos; style
+        game, however; it set me on a path and a great interest in all things
         computer-y.
         <br />
         <br />
         For the last 16 years, I worked for a great company that allowed many
         growth opportunities, including receiving my{' '}
-        <span className="text-white">Master's in Business Administration</span>,
-        with a focus on Information Systems. I didn't stop there, though. I
-        continued my learning through{' '}
+        <span className="text-white">
+          Master&apos;s in Business Administration
+        </span>
+        , with a focus on Information Systems. I didn&apos;t stop there, though.
+        I continued my learning through{' '}
         <span className="text-white">ServiceNow</span>, as well as courses on
         Udemy and Stackskills in subjects such as{' '}
         <span className="text-white">Full Stack Web Development</span>,{' '}
@@ -42,8 +44,8 @@ export default function BackgroundCard() {
         aficionado, let me know!
         <br /> <br />
         <span className="text-white italic">
-          "The most important step a man can take is not the first one, it's
-          always the next one." ~ Brandon Sanderson
+          &quot;The most important step a man can take is not the first one,
+          it&apos;s always the next one.&quot; ~ Brandon Sanderson
         </span>
       </p>
     </Card>

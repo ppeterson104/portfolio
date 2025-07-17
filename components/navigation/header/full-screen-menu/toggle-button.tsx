@@ -1,5 +1,4 @@
 import { cn } from '@/lib/utils';
-import React from 'react';
 import { FaX } from 'react-icons/fa6';
 
 export default function ToggleButton({
@@ -7,11 +6,11 @@ export default function ToggleButton({
   setOpen,
 }: {
   open: boolean;
-  setOpen: any;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   return (
     <button
-      onClick={() => setOpen((prev: any) => !prev)}
+      onClick={() => setOpen((prev: boolean) => !prev)}
       className="fixed right-4 top-5 m-5 z-50 w-20 h-20 rounded-full backdrop-blur-md bg-[#323E56] opacity-80  cursor-pointer overflow-hidden"
     >
       <div className="relative flex items-center justify-center">

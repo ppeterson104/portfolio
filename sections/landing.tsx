@@ -17,7 +17,7 @@ export default function LandingSection() {
             <div className="flex flex-col justify-center items-center text-left max-lg:text-center w-full">
               <span className="">GENUINE</span>
 
-              <span className="">DESIGN</span>
+              <span className="">DEVELOPER</span>
 
               <span className="">SWAGGER</span>
             </div>

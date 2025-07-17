@@ -13,7 +13,6 @@ interface FeaturedCardProps {
 }
 
 const FeaturedCard: FC<FeaturedCardProps> = ({
-  logo,
   title,
   tag,
   video,
