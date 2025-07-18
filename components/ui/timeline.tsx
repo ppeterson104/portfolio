@@ -28,16 +28,18 @@ export const TimeLineItem: FC<TimeLineItemProps> = ({
   isCourse,
 }) => {
   return (
-    <div className="flex flex-wrap gap-24 min-h justify-start relative">
+    <div className="flex flex-wrap gap-6 md:gap-12 lg:gap-18 xl:gap-24   min-h justify-start relative">
       <div
         className="h-auto flex-none break-words whitespace-pre"
-        style={{ width: `${isCourse ? '0' : ''}` }}
+        style={{ width: `${isCourse ? 'translateX(-45px)' : ''}` }}
       >
         <p className="text-secondary-foreground">{date}</p>
       </div>
       <div
-        className="flex gap-x-6"
-        style={{ transform: `${isCourse}` ? 'translateX(-45px)' : '' }}
+        className="flex gap-x-6 md:gap-x-3"
+        style={{
+          transform: `${isCourse}` ? '' : '',
+        }}
       >
         <div className="flex flex-col gap-0.5">
           <div className="text-primary-foreground break-words whitespace-pre">
