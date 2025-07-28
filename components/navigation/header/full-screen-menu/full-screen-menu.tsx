@@ -80,7 +80,8 @@ export default function FullScreenMenu() {
           <div className="flex items-center gap-4">
             <Link
               className="hover:bg-blue-joust transition-colors duration-200  p-1.5 cursor-pointer border border-white rounded-[8px]"
-              href="/"
+              href="https://peterpeterson.org/bwd.html"
+              target="_blank"
             >
               Buzzword defender
             </Link>
