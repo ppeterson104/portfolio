@@ -34,6 +34,15 @@ const featuredData = [
     credits: 'Pete Peterson',
     link: '',
   },
+
+  {
+    title: 'GTA VI Demo',
+    logo: '',
+    tag: '2025',
+    video: 'assets/videos/gta6.mp4',
+    credits: 'Pete Peterson',
+    link: '',
+  },
 ];
 
 export default featuredData;
