@@ -2,6 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import SvgSN from '../image/snsvg';
 import Button from './button';
+import SvgCredly from '../image/credlysvg';
+import { link } from 'fs';
 
 export default function Socials() {
   return (
@@ -32,6 +34,11 @@ const socials = [
   {
     icon: <FaGithub className="w-4 h-4" />,
     link: 'https://github.com/ppeterson104',
+    username: 'Pete Peterson',
+  },
+  {
+    icon: <SvgCredly height={30} width={60} fill="#FF6A00" />,
+    link: 'https://www.credly.com/users/pete-peterson.d44b56fa/badges',
     username: 'Pete Peterson',
   },
 ];
