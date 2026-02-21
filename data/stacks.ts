@@ -160,7 +160,7 @@ export const appStacks = [
   },
   {
     app: 'Willis Pest Control',
-    stack: [HTMLImg, CSSImg, JSImg],
+    stack: [HTMLImg, CSSImg, JSImg, BSImg],
   },
   {
     app: 'Slidify',

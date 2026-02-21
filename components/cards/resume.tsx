@@ -23,7 +23,7 @@ export default function ResumeCard() {
       </div>
       <div className="flex items-center justify-between md:absolute md:bottom-6 md:left-6 md:w-[calc(100%-48px)]">
         <Socials />
-        <Button link="https://api.resumefromspace.com/resume/view-resume/6831235afefe16f83ae969a0?resumeOnly=true">
+        <Button link="https://api.resumefromspace.com/resume/view-resume/6989e09f1b10f7dfb9c5b81b?resumeOnly=true">
           <FaDownload />
           Resume
         </Button>
