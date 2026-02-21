@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import SvgSN from '../image/snsvg';
 import Button from './button';
 import SvgCredly from '../image/credlysvg';
-import { link } from 'fs';
 
 export default function Socials() {
   return (
