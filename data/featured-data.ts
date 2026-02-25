@@ -29,8 +29,8 @@ const featuredData = [
   {
     title: 'Willis Pest',
     logo: '',
-    tag: '2022',
-    video: '/assets/videos/willis.mp4',
+    tag: '2026',
+    video: '/assets/videos/willis_pest.mp4',
     credits: 'Pete Peterson',
     link: '',
   },
